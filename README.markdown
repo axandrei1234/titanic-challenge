@@ -15,7 +15,7 @@ This repository contains a Jupyter notebook implementing an end-to-end (E2E) mac
 ## Key Features
 - **Data Handling**: Uses Pandas for loading and concatenating train/test data, with basic statistical summaries via `describe()`.
 - **Preprocessing**: Imports tools like KNNImputer, LabelEncoder, and OneHotEncoder (though usage may be in extended versions or implied).
-- **Model Tuning**: Performs randomized search over hyperparameters for SVC (C, gamma, kernel) using cross-validation.
+- **Model Tuning**: Performs grid, randomized, and bayesian search over hyperparameters using cross-validation.
 - **Prediction**: Generates survival predictions and saves them in a CSV format ready for Kaggle submission.
 - Achieved a sample Kaggle score of 79.42% using the tuned XGBoost model.
 
